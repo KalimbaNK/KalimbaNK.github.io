@@ -3,9 +3,6 @@
 <head> 
 <title> ALLS </title> 
 <style> 
-body {
-    color: red;
-}
 
 .header{ 
 padding: 18px; 
@@ -28,7 +25,7 @@ font-weight: 400;
 font-size: 12px; 
 } 
 .section-banner { 
-background: url(kosmos.jpg); 
+background: url(kosmos3.jpg); 
 background-size: cover; 
 } 
 .container { 
@@ -41,7 +38,7 @@ margin-top: 120px;
 padding: 120px 0; 
 } 
 .banner-text_header { 
-color: rgb(0, 0, 0); 
+color: rgb(255, 255, 255); 
 font-size: 48px; 
 font-weight: 600; 
 text-align: center; 
@@ -52,12 +49,12 @@ padding: 10px 0;
 } 
 .banner-text_body a{ 
 text-decoration: none; 
-color: rgb(0, 0, 0); 
+color: rgb(255, 255, 255); 
 font-weight: 300; 
 font-size: 14px; 
 } 
 .banner-text_body span { 
-color: rgb(0, 0, 0); 
+color: rgb(255, 255, 255); 
 font-weight: 300; 
 font-size: 14px; 
 padding: 0 5px; 
@@ -73,7 +70,7 @@ margin: 0;
 <div class="container"> 
 <div class="menu"> 
 <div class="menu-logo"> 
-<a href="#" class="menu-logo_link"><img src="gulka.jpg" height="85px" width="170px" align=right> </a> 
+<a href="#" class="menu-logo_link"><img src="ears.jpg" height="85px" width="170px" align=right> </a> 
 </div> 
 <div class"menu-nav-container"> 
 <div class="container"> 
@@ -104,7 +101,28 @@ margin: 0;
 </div> 
 </section> 
 </main> 
-</body> 
+</body>
+ <button type="button" class="btn btn-secondary"><img src="ears.jpg" height="85px" width="170px" align=right></button>
+<p id="menu"> Категории сайтов ↓ <img id="img" src="menuup.gif" width="7px" height="7px" /> 
+<ul id="list"> 
+<li> Сайты </li> 
+<li> Приложения </li> 
+<li> Развлечения </li> 
+<li> Еда </li> 
+<li> Одежда </li> 
+<li> Техника </li> 
+<li> Услуги </li> 
+<li>  </li> 
+<li>  </li> 
+<li>  </li> 
+<li>  </li> 
+<li>  </li> 
+<li>  </li> 
+<li>  </li> 
+<li>  </li> 
+<li>  </li> 
+<li>  </li> 
+</ul> 
 <head> 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script> 
 <style type="text/css"> 
@@ -140,6 +158,41 @@ background-color:#a7ddc2;
 margin:0px; 
 } 
 </style> 
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
 
 <script type="text/javascript"> 
 $(document).ready(function(){ 
@@ -152,27 +205,4 @@ $("#menu").mouseout(function(){ $("#menu").css("background-color","#006064")});
 }); 
 </script> 
 </head> 
-<body> 
-
-<p id="menu"> Категории сайтов ↓ <img id="img" src="menuup.gif" width="7px" height="7px" /> 
-<ul id="list"> 
-<li> Сайты </li> 
-<li> Приложения </li> 
-<li> Развлечения </li> 
-<li> Еда </li> 
-<li> Одежда </li> 
-<li> Техника </li> 
-<li> Услуги </li> 
-<li>  </li> 
-<li>  </li> 
-<li>  </li> 
-<li>  </li> 
-<li>  </li> 
-<li>  </li> 
-<li>  </li> 
-<li>  </li> 
-<li>  </li> 
-<li>  </li> 
-</ul> 
-</body> 
 </html>
