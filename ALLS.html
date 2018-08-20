@@ -2,17 +2,19 @@
 <html> 
 <head> 
 <title> ALLS </title> 
+<link rel="shortcut icon" href="ALLS.jpg" type="image/png">
 <style> 
-
+body { 
+background-color: snow; 
+} 
 .header{ 
-padding: 18px; 
+padding: 10px; 
 position: fixed; 
 left: 0px; 
 top: 0px; 
 right: 0px; 
 z-index: 997; 
-background: darkblue;
-opacity: 0.5; 
+background: darkblue; 
 } 
 .menu-nav_item { 
 list-style: none; 
@@ -25,8 +27,9 @@ font-weight: 400;
 font-size: 12px; 
 } 
 .section-banner { 
-background: url(kosmos3.jpg); 
+background: url(banner-bg.jpg); 
 background-size: cover; 
+
 } 
 .container { 
 max-width: 1140px; 
@@ -34,11 +37,10 @@ padding: 0 15px;
 margin: 0 auto; 
 } 
 .banner{ 
-margin-top: 120px; 
 padding: 120px 0; 
 } 
 .banner-text_header { 
-color: rgb(255, 255, 255); 
+color: white; 
 font-size: 48px; 
 font-weight: 600; 
 text-align: center; 
@@ -49,12 +51,15 @@ padding: 10px 0;
 } 
 .banner-text_body a{ 
 text-decoration: none; 
-color: rgb(255, 255, 255); 
+color: white; 
 font-weight: 300; 
 font-size: 14px; 
-} 
+}
+.menu {
+    opacity: 0.5;
+}
 .banner-text_body span { 
-color: rgb(255, 255, 255); 
+color: white; 
 font-weight: 300; 
 font-size: 14px; 
 padding: 0 5px; 
@@ -66,11 +71,11 @@ margin: 0;
 </style> 
 </head> 
 <body> 
-<header class="header"> 
+    <header class="header"> 
 <div class="container"> 
 <div class="menu"> 
 <div class="menu-logo"> 
-<a href="#" class="menu-logo_link"><img src="ears.jpg" height="85px" width="170px" align=right> </a> 
+<a href="#" class="menu-logo_link"><img src="gulka.jpg" height="85px" width="170px"> </a> 
 </div> 
 <div class"menu-nav-container"> 
 <div class="container"> 
@@ -82,18 +87,27 @@ margin: 0;
 </div> 
 </div> 
 </div> 
-</header> 
+    </header> 
+
 <main class="main"> 
 <section class="section section-banner"> 
 <div class="container"> 
-<div class="banner_container"> 
+<div class="banner_container">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br> 
 <div class="banner"> 
 <div class="banner-text"> 
-<h1 class="banner-text_header"> ALLS </h1> 
+<h1 id="iPhone" class="banner-text_header"> ALLS </h1> 
 <div class="banner-text_body"> 
-<a href="#"> HOME </a> 
-<span> -> </span> 
-<a href="#"> Sites </a> 
+<a href="#"> All </a> 
+<span> sites </span> 
+<a href="#"> here </a> 
 </div> 
 </div> 
 </div> 
@@ -101,28 +115,7 @@ margin: 0;
 </div> 
 </section> 
 </main> 
-</body>
- <button type="button" class="btn btn-secondary"><img src="ears.jpg" height="85px" width="170px" align=right></button>
-<p id="menu"> Категории сайтов ↓ <img id="img" src="menuup.gif" width="7px" height="7px" /> 
-<ul id="list"> 
-<li> Сайты </li> 
-<li> Приложения </li> 
-<li> Развлечения </li> 
-<li> Еда </li> 
-<li> Одежда </li> 
-<li> Техника </li> 
-<li> Услуги </li> 
-<li>  </li> 
-<li>  </li> 
-<li>  </li> 
-<li>  </li> 
-<li>  </li> 
-<li>  </li> 
-<li>  </li> 
-<li>  </li> 
-<li>  </li> 
-<li>  </li> 
-</ul> 
+</body> 
 <head> 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script> 
 <style type="text/css"> 
@@ -133,7 +126,7 @@ color:white;
 width:178px; 
 padding:6px; 
 margin:0px; 
-background-color:#006064; 
+background-color:darkblue; 
 font-size:1.1em; 
 } 
 #list 
@@ -149,60 +142,58 @@ font-size:1.1em;
 { 
 padding:6px; 
 border-bottom-style:solid; 
-border-bottom-color: darkblue; 
+border-bottom-color:white; 
 border-width:1px; 
-background-color:#a7ddc2; 
+background-color:#ffd273; 
 } 
 #img 
 { 
 margin:0px; 
 } 
 </style> 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
 
 <script type="text/javascript"> 
 $(document).ready(function(){ 
 
 $("#menu").click(function(){ $("#list").slideToggle(500)}); 
 
-$("#menu").mouseover(function(){ $("#menu").css("background-color","aquamarine")}); 
-$("#menu").mouseout(function(){ $("#menu").css("background-color","#006064")}); 
+$("#menu").mouseover(function(){ $("#menu").css("background-color","darkgreen")}); 
+$("#menu").mouseout(function(){ $("#menu").css("background-color","darkblue")}); 
+$("#iPhone").mouseover(function(){ $("#iPhone").css("color", "darkblue")}); 
+$("#iPhone").mouseout(function(){ $("#iPhone").css("color", "white")}); 
+$("#X").mouseover(function(){ $("#X").css("color", "red")}); 
+$("#X").mouseout(function(){ $("#X").css("color", "")}); 
+$("#81").mouseover(function(){ $("#81").css("color", "red")}); 
+$("#81").mouseout(function(){ $("#81").css("color", "")}); 
+$("#8").mouseover(function(){ $("#8").css("color", "red")}); 
+$("#8").mouseout(function(){ $("#8").css("color", "")}); 
+$("#71").mouseover(function(){ $("#71").css("color", "red")}); 
+$("#71").mouseout(function(){ $("#71").css("color", "")}); 
+$("#7").mouseover(function(){ $("#7").css("color", "red")}); 
+$("#7").mouseout(function(){ $("#7").css("color", "")}); 
+$("#6s1").mouseover(function(){ $("#6s1").css("color", "red")}); 
+$("#6s1").mouseout(function(){ $("#6s1").css("color", "")}); 
+$("#6s").mouseover(function(){ $("#6s").css("color", "red")}); 
+$("#6s").mouseout(function(){ $("#6s").css("color", "")}); 
+$("#se").mouseover(function(){ $("#se").css("color", "red")}); 
+$("#se").mouseout(function(){ $("#se").css("color", "")}); 
+
 
 }); 
 </script> 
 </head> 
+<body> 
+
+<p id="menu">Категории ↓ <img id="img" src="menuup.gif" width="7px" height="7px" /> 
+<ul id="list"> 
+<li> <a id="X" href=https://www.apple.com/ru/shop/buy-iphone/iphone-x> Сайты </a> </li> 
+<li> <a id="81" href=https://www.apple.com/ru/shop/buy-iphone/iphone-8#01> Развлечения </a> </li> 
+<li> <a id="8" href=https://www.apple.com/ru/shop/buy-iphone/iphone-8#00> Игры </a> </li> 
+<li> <a id="71" href=https://www.apple.com/ru/shop/buy-iphone/iphone-7#01> Еда </a> </li> 
+<li> <a id="7" href=https://www.apple.com/ru/shop/buy-iphone/iphone-7#00> Одежда </a> </li> 
+<li> <a id="6s1" href=https://www.apple.com/ru/shop/buy-iphone/iphone6s#01> Техника </a> </li> 
+<li> <a id="6s" href=https://www.apple.com/ru/shop/buy-iphone/iphone6s#00> Услуги </a> </li> 
+<li> <a id="se" href=https://www.apple.com/ru/shop/buy-iphone/iphone-se>  </a> </li> 
+</ul> 
+</body> 
 </html>
