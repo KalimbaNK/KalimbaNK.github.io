@@ -5,31 +5,41 @@
 <link rel="shortcut icon" href="ALLS.jpg" type="image/png">
 <style> 
 body { 
-background-color: snow; 
+background:url(kosmos.jpg); 
 } 
-.header{ 
-padding: 10px; 
+.header { 
+padding: 1px; 
 position: fixed; 
 left: 0px; 
 top: 0px; 
 right: 0px; 
 z-index: 997; 
-background: darkblue; 
-} 
+background: black; 
+opacity: 1;
+}
+.left {
+padding: 100px 0; 
+position: absolute; 
+left: 0px; 
+top: 100px; 
+right: 1000px;
+z-index: 997; 
+background: skyblue; 
+}
+
 .menu-nav_item { 
 list-style: none; 
 } 
 .menu-nav_link { 
 text-decoration: none; 
 display: inline-block; 
-color: burlywood; 
+color: whitesmoke; 
 font-weight: 400; 
-font-size: 12px; 
+font-size: 20px; 
 } 
 .section-banner { 
-background: url(banner-bg.jpg); 
+background: url(7.gif); 
 background-size: cover; 
-
 } 
 .container { 
 max-width: 1140px; 
@@ -37,11 +47,11 @@ padding: 0 15px;
 margin: 0 auto; 
 } 
 .banner{ 
-padding: 120px 0; 
+padding: 282px 0; 
 } 
 .banner-text_header { 
 color: white; 
-font-size: 48px; 
+font-size: 100px; 
 font-weight: 600; 
 text-align: center; 
 } 
@@ -51,17 +61,30 @@ padding: 10px 0;
 } 
 .banner-text_body a{ 
 text-decoration: none; 
-color: white; 
+color:white; 
 font-weight: 300; 
-font-size: 14px; 
+font-size: 25px; 
 }
 .menu {
-    opacity: 0.5;
+  
 }
+.menu2 {
+    
+}
+.pic {
+    text-align: center;
+   }
+   .pic2 {
+    text-align: left;
+   }
+   .form {
+       color: red;
+       text-align: right;
+   }
 .banner-text_body span { 
 color: white; 
 font-weight: 300; 
-font-size: 14px; 
+font-size: 25px;
 padding: 0 5px; 
 } 
 *{ 
@@ -71,39 +94,48 @@ margin: 0;
 </style> 
 </head> 
 <body> 
-    <header class="header"> 
-<div class="container"> 
-<div class="menu"> 
-<div class="menu-logo"> 
-<a href="#" class="menu-logo_link"><img src="gulka.jpg" height="85px" width="170px"> </a> 
-</div> 
-<div class"menu-nav-container"> 
-<div class="container"> 
-<ul class="menu-nav"> 
-<li class="menu-nav_item"> <a href="#" class="menu-nav_link"> home </a> </li> 
-<li class="menu-nav_item"> <a href="#" class="menu-nav_link"> about</a> </li> 
-</ul> 
-</div> 
-</div> 
-</div> 
-</div> 
-    </header> 
-
+        <header class="header"> 
+                <div class="container"> 
+                <div class="menu"> 
+                <div class="menu-logo"> 
+                        <p class="pic"><img src="14.gif" width="100" height="65" alt="pic"></p>
+                </div> 
+                <div class="menu-nav-container"> 
+                <div class="container"> 
+                <ul class="menu-nav"> 
+                <li class="menu-nav_item"> <a href="#" class="menu-nav_link">  </a> </li> 
+                <li class="menu-nav_item"> <a href="#" class="menu-nav_link"> </a> </li> 
+                </ul> 
+                </div> 
+                </div> 
+                </div> 
+                </div> 
+                    </header> 
+    <left> 
+    <ltft class="left"> 
+            <div class="container"> 
+            <div class="menu2"> 
+            <div class="menu-logo"> 
+                    <p class="pic2"><img src="10.gif" width="80" height="55" alt="pic2"></p>
+            </div> 
+            <div class="menu-nav-container"> 
+            <div class="container"> 
+            <ul class="menu-nav"> 
+            <li class="menu-nav_item"> <a href="#" class="menu-nav_link"> </a> </li> 
+            <li class="menu-nav_item"> <a href="#" class="menu-nav_link"> </a> </li> 
+            </ul> 
+            </div> 
+            </div> 
+            </div> 
+            </div> 
+        </left> 
 <main class="main"> 
 <section class="section section-banner"> 
 <div class="container"> 
 <div class="banner_container">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br> 
 <div class="banner"> 
 <div class="banner-text"> 
-<h1 id="iPhone" class="banner-text_header"> ALLS </h1> 
+<h1 id="ALLS" class="banner-text_header"> ALLS </h1> 
 <div class="banner-text_body"> 
 <a href="#"> All </a> 
 <span> sites </span> 
@@ -114,86 +146,93 @@ margin: 0;
 </div> 
 </div> 
 </section> 
-</main> 
+</main>
+<h1>Вход</h1>
+<form action="#" method="post">
+    <label for="login-frield">Логин</label>
+    <br>
+<input type="text" name="login" id="login-field">
+<br>
+<label for="password-field">Пароль</label>
+<br>
+
+<input type="text" name="password" id="password-field">
+<br>
+<input type="submit" value="Войти">
+
+<p id="menu"> <img id="img" src="menugif.gif" width="60px" height="40px" /> 
+<ul id="list"> 
+<li> <a id="Сайты" href=https://www.apple.com/ru/shop/buy-iphone/iphone-x> Сайты </a> </li> 
+<li> <a id="Развлечения" href=https://www.apple.com/ru/shop/buy-iphone/iphone-8#01> Развлечения </a> </li> 
+<li> <a id="Игры" href=https://www.apple.com/ru/shop/buy-iphone/iphone-8#00> Игры </a> </li> 
+<li> <a id="Еда" href=https://www.apple.com/ru/shop/buy-iphone/iphone-7#01> Еда </a> </li> 
+<li> <a id="Одежда" href=https://www.apple.com/ru/shop/buy-iphone/iphone-7#00> Одежда </a> </li> 
+<li> <a id="Техника" href=https://www.apple.com/ru/shop/buy-iphone/iphone6s#01> Техника </a> </li> 
+<li> <a id="Услуги" href=https://www.apple.com/ru/shop/buy-iphone/iphone6s#00> Услуги </a> </li> 
+<li> <a id="Фирмы" href=https://www.apple.com/ru/shop/buy-iphone/iphone-se> Фирмы </a> </li> 
+</ul> 
 </body> 
 <head> 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script> 
 <style type="text/css"> 
 #menu 
 { 
-border:1px solid black; 
+border:1px solid rgba(255, 255, 255, 0.705); 
 color:white; 
 width:178px; 
 padding:6px; 
 margin:0px; 
-background-color:darkblue; 
+background-color:black; 
 font-size:1.1em; 
 } 
 #list 
 { 
-border-bottom:4px solid; 
-width:192px; 
-list-style-type:none; 
+border-bottom:1px solid; 
+width:140px; 
+list-style-type: none; 
 margin:0px; 
 padding:0px; 
-font-size:1.1em; 
+font-size:1.4em; 
 } 
 #list li 
 { 
-padding:6px; 
+padding:12px; 
 border-bottom-style:solid; 
-border-bottom-color:white; 
+border-bottom-color:#242424; 
 border-width:1px; 
-background-color:#ffd273; 
+background-color:#242424; 
 } 
 #img 
 { 
-margin:0px; 
+margin:-5px; 
 } 
+
 </style> 
 
 <script type="text/javascript"> 
 $(document).ready(function(){ 
-
 $("#menu").click(function(){ $("#list").slideToggle(500)}); 
-
-$("#menu").mouseover(function(){ $("#menu").css("background-color","darkgreen")}); 
-$("#menu").mouseout(function(){ $("#menu").css("background-color","darkblue")}); 
-$("#iPhone").mouseover(function(){ $("#iPhone").css("color", "darkblue")}); 
-$("#iPhone").mouseout(function(){ $("#iPhone").css("color", "white")}); 
-$("#X").mouseover(function(){ $("#X").css("color", "red")}); 
-$("#X").mouseout(function(){ $("#X").css("color", "")}); 
-$("#81").mouseover(function(){ $("#81").css("color", "red")}); 
-$("#81").mouseout(function(){ $("#81").css("color", "")}); 
-$("#8").mouseover(function(){ $("#8").css("color", "red")}); 
-$("#8").mouseout(function(){ $("#8").css("color", "")}); 
-$("#71").mouseover(function(){ $("#71").css("color", "red")}); 
-$("#71").mouseout(function(){ $("#71").css("color", "")}); 
-$("#7").mouseover(function(){ $("#7").css("color", "red")}); 
-$("#7").mouseout(function(){ $("#7").css("color", "")}); 
-$("#6s1").mouseover(function(){ $("#6s1").css("color", "red")}); 
-$("#6s1").mouseout(function(){ $("#6s1").css("color", "")}); 
-$("#6s").mouseover(function(){ $("#6s").css("color", "red")}); 
-$("#6s").mouseout(function(){ $("#6s").css("color", "")}); 
-$("#se").mouseover(function(){ $("#se").css("color", "red")}); 
-$("#se").mouseout(function(){ $("#se").css("color", "")}); 
-
-
+$("#menu").mouseover(function(){ $("#menu").css("background-color","#242424")}); 
+$("#menu").mouseout(function(){ $("#menu").css("background-color","black")}); 
+$("#ALLS").mouseover(function(){ $("#ALLS").css("color", "#000080")}); 
+$("#ALLS").mouseout(function(){ $("#ALLS").css("color", "white")}); 
+$("#Сайты").mouseover(function(){ $("#Сайты").css("color", "white")}); 
+$("#Сайты").mouseout(function(){ $("#Сайты").css("color", "")}); 
+$("#Развлечения").mouseover(function(){ $("#Развлечения").css("color", "white")}); 
+$("#Развлечения").mouseout(function(){ $("#Развлечения").css("color", "")}); 
+$("#Игры").mouseover(function(){ $("#Игры").css("color", "white")}); 
+$("#Игры").mouseout(function(){ $("#Игры").css("color", "")}); 
+$("#Еда").mouseover(function(){ $("#Еда").css("color", "white")}); 
+$("#Еда").mouseout(function(){ $("#Еда").css("color", "")}); 
+$("#Одежда").mouseover(function(){ $("#Одежда").css("color", "white")}); 
+$("#Одежда").mouseout(function(){ $("#Одежда").css("color", "")}); 
+$("#Техника").mouseover(function(){ $("#Техника").css("color", "white")}); 
+$("#Техника").mouseout(function(){ $("#Техника").css("color", "")}); 
+$("#Услуги").mouseover(function(){ $("#Услуги").css("color", "white")}); 
+$("#Услуги").mouseout(function(){ $("#Услуги").css("color", "")}); 
+$("#Фирмы").mouseover(function(){ $("#Фирмы").css("color", "white")}); 
+$("#Фирмы").mouseout(function(){ $("#Фирмы").css("color", "")}); 
 }); 
 </script> 
 </head> 
-<body> 
-
-<p id="menu">Категории ↓ <img id="img" src="menuup.gif" width="7px" height="7px" /> 
-<ul id="list"> 
-<li> <a id="X" href=https://www.apple.com/ru/shop/buy-iphone/iphone-x> Сайты </a> </li> 
-<li> <a id="81" href=https://www.apple.com/ru/shop/buy-iphone/iphone-8#01> Развлечения </a> </li> 
-<li> <a id="8" href=https://www.apple.com/ru/shop/buy-iphone/iphone-8#00> Игры </a> </li> 
-<li> <a id="71" href=https://www.apple.com/ru/shop/buy-iphone/iphone-7#01> Еда </a> </li> 
-<li> <a id="7" href=https://www.apple.com/ru/shop/buy-iphone/iphone-7#00> Одежда </a> </li> 
-<li> <a id="6s1" href=https://www.apple.com/ru/shop/buy-iphone/iphone6s#01> Техника </a> </li> 
-<li> <a id="6s" href=https://www.apple.com/ru/shop/buy-iphone/iphone6s#00> Услуги </a> </li> 
-<li> <a id="se" href=https://www.apple.com/ru/shop/buy-iphone/iphone-se>  </a> </li> 
-</ul> 
-</body> 
 </html>
